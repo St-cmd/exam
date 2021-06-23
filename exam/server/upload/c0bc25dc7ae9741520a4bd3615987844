@@ -1,0 +1,4 @@
+title,categoryId,rate,answerA,answerB,answerC,answerD,rightAnswer
+单选题目test,60a35a8329caab36a034cc7e,1,a,b,c,d,C
+单选题目test2,60a35a8329caab36a034cc7e,1,a,b,c,d,C
+单选题,60a35a8329caab36a034cc7e,1,a,a,a,a,a

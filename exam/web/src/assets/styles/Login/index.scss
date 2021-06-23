@@ -1,0 +1,49 @@
+.form-fade-enter-active,
+.form-fade-leave-active {
+  transition: all 1s;
+}
+
+.form-fade-enter,
+.form-fade-leave-active {
+  transform: translate3d(0, -50px, 0);
+  opacity: 0;
+}
+
+.Login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Index-content {
+    color: #fff;
+    width: 320px;
+    height: 210px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px;
+    position: relative;
+  
+    .top {
+      position: absolute;
+      top: -100px;
+      width: 100%;
+      left: 0;
+  
+      h1 {
+        font-size: 34px;
+      }
+    }
+  
+    .con {
+      .submit_btn {
+        width: 100%;
+      }
+      p {
+        color: red;
+        margin: 2px 0 0 0;
+        font-size: 12px;
+      }
+    }
+  }
+}
